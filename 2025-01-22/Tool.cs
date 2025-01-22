@@ -23,7 +23,7 @@ namespace _2025_01_22
         }
         public virtual void Tool_Click(object sender, EventArgs e)
         {
-            MessageBox.Show(Material, Type);
+            MessageBox.Show($"{Type} anyaga {Material}.", Type);
         }
     }
 }

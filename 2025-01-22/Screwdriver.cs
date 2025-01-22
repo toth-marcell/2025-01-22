@@ -20,7 +20,7 @@ namespace _2025_01_22
         }
         public override void Tool_Click(object sender, EventArgs e)
         {
-            MessageBox.Show($"{Material}, {Head}", Type);
+            MessageBox.Show($"{Type} anyaga {Material}, feje {Head}.", Type);
         }
     }
 }
