@@ -22,5 +22,6 @@ namespace _2025_01_22
         {
             MessageBox.Show($"{Type} anyaga {Material}, nyele anyaga {HandleMaterial}.", Type);
         }
+        public string GetName() => $"E kalapács neve {Type}.";
     }
 }

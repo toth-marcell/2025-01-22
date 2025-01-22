@@ -5,6 +5,11 @@ VisualStudioVersion = 16.0.34729.46
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2025-01-22", "2025-01-22\2025-01-22.csproj", "{2EC30299-7EE0-40DC-920C-97A7E6463CEA}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ToolTesting", "ToolTesting\ToolTesting.csproj", "{0C280C24-32F1-4B6C-90CB-75D7BFC4589E}"
+	ProjectSection(ProjectDependencies) = postProject
+		{2EC30299-7EE0-40DC-920C-97A7E6463CEA} = {2EC30299-7EE0-40DC-920C-97A7E6463CEA}
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +20,10 @@ Global
 		{2EC30299-7EE0-40DC-920C-97A7E6463CEA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2EC30299-7EE0-40DC-920C-97A7E6463CEA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2EC30299-7EE0-40DC-920C-97A7E6463CEA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0C280C24-32F1-4B6C-90CB-75D7BFC4589E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0C280C24-32F1-4B6C-90CB-75D7BFC4589E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0C280C24-32F1-4B6C-90CB-75D7BFC4589E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0C280C24-32F1-4B6C-90CB-75D7BFC4589E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
